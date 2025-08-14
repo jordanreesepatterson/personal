@@ -25,12 +25,14 @@ export const MainLayout = () => {
               marketplace, leading the development and enhancement of user
               interfaces and backend systems for both new and existing web
               reports.
+            </li>            <li>
+              <b>Spearheaded multiple initiatives</b> within the digital wholesale
+              marketplace, leading the development and enhancement of user
+              interfaces and backend systems for both new and existing web
+              reports.
             </li>
             <li>
-              <b>Developed and maintained RESTful Web APIs</b>, ensuring seamless
-              interaction between front-end applications and back-end services.
-              Proficient in meeting with business partners to design, build, and
-              deploy services communicating B2B data via REST{" "}
+              <b>Create rich dashboards and reports</b> monitoring the health of the system alerting downtime, errors, and key events hit.
             </li>
             API.
             <li>
