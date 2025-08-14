@@ -1,0 +1,84 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    // background-image: url("../../../public/background.jpg");
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-position: center;
+  }
+
+.container {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    @media (max-width: 768px) {
+        margin-left: 5%;
+        margin-right: 5%;
+        // padding-left: 15px;
+    }
+}
+
+
+.technicalsummary {
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.techsummaryheader {
+    @extend .technicalsummary
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .responsibility-listing {
+        margin-left: 20%;
+        max-width: 60%;
+        font-size: 12px;
+    }
+}
+
+// .collapsecontainer h4 {
+//     font-size: 8px;
+// }
+
+.header {
+    margin: 0;
+    h4, h5, p {
+        margin: 0;
+        text-align: left;
+        margin-left: 10px;
+    }
+    h4 {
+        font-size:18px;
+    }
+    p, h5 {
+        font-size: 12px;
+    }
+}
+
+.responsibility-listing {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 12px;
+    text-align: left;
+    li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    @media (max-width: 768px) {
+        margin-left: 0;
+        max-width: 100%;
+        padding-left: 15px;
+        margin-right: 10px;
+    }
+}
